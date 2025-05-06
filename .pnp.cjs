@@ -30,9 +30,11 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@hotwired/stimulus", "npm:3.2.2"],\
           ["@hotwired/turbo-rails", "npm:8.0.13"],\
+          ["@types/node", "npm:22.15.11"],\
           ["app", "workspace:."],\
           ["esbuild", "npm:0.25.4"],\
-          ["sass", "npm:1.87.0"]\
+          ["sass", "npm:1.87.0"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -511,6 +513,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/node", [\
+      ["npm:22.15.11", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-22.15.11-8f800e5f21-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:22.15.11"],\
+          ["undici-types", "npm:6.21.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["abbrev", [\
       ["npm:3.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/abbrev-npm-3.0.1-a34d600e50-10c0.zip/node_modules/abbrev/",\
@@ -568,9 +580,11 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@hotwired/stimulus", "npm:3.2.2"],\
           ["@hotwired/turbo-rails", "npm:8.0.13"],\
+          ["@types/node", "npm:22.15.11"],\
           ["app", "workspace:."],\
           ["esbuild", "npm:0.25.4"],\
-          ["sass", "npm:1.87.0"]\
+          ["sass", "npm:1.87.0"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1502,6 +1516,24 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-number", "npm:7.0.0"],\
           ["to-regex-range", "npm:5.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["typescript", [\
+      ["patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5", {\
+        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-f64146f279-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["undici-types", [\
+      ["npm:6.21.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/undici-types-npm-6.21.0-eb2b0ed56a-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
       }]\
